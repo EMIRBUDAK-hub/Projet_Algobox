@@ -1,0 +1,31 @@
+Variables
+    n est un entier
+    i est un entier
+    j est un entier
+    temp est un entier
+    T est un tableau d'entiers
+
+Début
+    Ecrire "Donnez la taille du tableau :"
+    Lire n
+
+    Pour i allant de 1 à n
+        Ecrire "Entrez l'élément ", i, " :"
+        Lire T[i]
+    FinPour
+
+    Pour i allant de 1 à n-1
+        Pour j allant de 1 à n-i
+            Si T[j] > T[j+1] Alors
+                temp ← T[j]
+                T[j] ← T[j+1]
+                T[j+1] ← temp
+            FinSi
+        FinPour
+    FinPour
+
+    Ecrire "Tableau trié :"
+    Pour i allant de 1 à n
+        Ecrire T[i]
+    FinPour
+Fin
