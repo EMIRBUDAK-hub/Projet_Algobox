@@ -1,0 +1,17 @@
+ALGORITHME Moyenne_3_Notes
+    VARIABLES
+        n1, n2, n3, moyenne EST_DU_TYPE NOMBRE
+    DEBUT
+        ECRIRE "Note 1 :"
+        LIRE n1
+
+        ECRIRE "Note 2 :"
+        LIRE n2
+
+        ECRIRE "Note 3 :"
+        LIRE n3
+
+        moyenne ← (n1 + n2 + n3) / 3
+
+        ECRIRE "La moyenne est : ", moyenne
+    FIN

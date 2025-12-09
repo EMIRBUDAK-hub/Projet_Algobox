@@ -1,0 +1,16 @@
+ALGORITHME Addition_Simple
+    VARIABLES
+        a EST_DU_TYPE NOMBRE
+        b EST_DU_TYPE NOMBRE
+        somme EST_DU_TYPE NOMBRE
+    DEBUT
+        ECRIRE "Entrez un nombre :"
+        LIRE a
+
+        ECRIRE "Entrez un deuxième nombre :"
+        LIRE b
+
+        somme ← a + b
+
+        ECRIRE "La somme est : ", somme
+    FIN

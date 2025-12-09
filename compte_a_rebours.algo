@@ -1,0 +1,10 @@
+ALGORITHME Compte_A_Rebours
+    VARIABLES
+        i EST_DU_TYPE NOMBRE
+    DEBUT
+        POUR i ← 10 A 0 PAS -1 FAIRE
+            ECRIRE i
+        FINPOUR
+
+        ECRIRE "Terminé !"
+    FIN

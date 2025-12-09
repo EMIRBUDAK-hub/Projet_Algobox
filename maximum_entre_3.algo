@@ -1,0 +1,25 @@
+ALGORITHME Maximum_Entre_3
+    VARIABLES
+        a, b, c, max EST_DU_TYPE NOMBRE
+    DEBUT
+        ECRIRE "Entrez a :"
+        LIRE a
+
+        ECRIRE "Entrez b :"
+        LIRE b
+
+        ECRIRE "Entrez c :"
+        LIRE c
+
+        max ← a
+
+        SI b > max ALORS
+            max ← b
+        FINSI
+
+        SI c > max ALORS
+            max ← c
+        FINSI
+
+        ECRIRE "Le plus grand nombre est : ", max
+    FIN

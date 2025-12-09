@@ -1,0 +1,11 @@
+ALGORITHME Table_Multiplication
+    VARIABLES
+        n, i EST_DU_TYPE NOMBRE
+    DEBUT
+        ECRIRE "Donnez un nombre :"
+        LIRE n
+
+        POUR i ← 1 A 10 FAIRE
+            ECRIRE n, " x ", i, " = ", n * i
+        FINPOUR
+    FIN
