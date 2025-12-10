@@ -10,6 +10,9 @@ ALGORITHME Addition_Complete
 
 #baaaaaaaaaaa
 
+
+#booooooooooooooooooooo
+
         TANT_QUE recommencer = "oui" FAIRE
 
             ECRIRE "=== Programme d'Addition Amélioré ==="
