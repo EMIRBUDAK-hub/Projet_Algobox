@@ -7,6 +7,9 @@ ALGORITHME Addition_Complete
     DEBUT
         recommencer ← "oui"
 
+
+
+
         TANT_QUE recommencer = "oui" FAIRE
 
             ECRIRE "=== Programme d'Addition Amélioré ==="
