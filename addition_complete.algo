@@ -8,7 +8,7 @@ ALGORITHME Addition_Complete
         recommencer ← "oui"
 
 
-
+#baaaaaaaaaaa
 
         TANT_QUE recommencer = "oui" FAIRE
 
