@@ -1,0 +1,31 @@
+ALGORITHME Addition_Complete
+    VARIABLES
+        a EST_DU_TYPE NOMBRE
+        b EST_DU_TYPE NOMBRE
+        somme EST_DU_TYPE NOMBRE
+        recommencer EST_DU_TYPE CHAINE
+    DEBUT
+        recommencer ← "oui"
+
+        TANT_QUE recommencer = "oui" FAIRE
+
+            ECRIRE "=== Programme d'Addition Amélioré ==="
+            ECRIRE "Entrez un premier nombre :"
+            LIRE a
+
+            ECRIRE "Entrez un deuxième nombre :"
+            LIRE b
+
+            somme ← a + b
+
+            ECRIRE "-------------------------------------"
+            ECRIRE "La somme de ", a, " et ", b, " vaut : ", somme
+            ECRIRE "-------------------------------------"
+
+            ECRIRE "Voulez-vous refaire un calcul ? (oui/non)"
+            LIRE recommencer
+
+        FIN_TANT_QUE
+
+        ECRIRE "Merci d'avoir utilisé le programme !"
+    FIN
